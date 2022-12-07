@@ -2,7 +2,7 @@ name: Debricked scan
 
 on: [push, pull_request]
 
-jobs:
+jobs: 
   vulnerabilities-scan:
     runs-on: ubuntu-latest
     steps:
